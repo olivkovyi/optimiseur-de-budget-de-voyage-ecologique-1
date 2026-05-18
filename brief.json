@@ -1,21 +1,21 @@
 {
-  "run_id": "run-1778969430819",
+  "run_id": "run-1779136538261",
   "job_index": 1,
   "params": {
     "owner_user_id": "user-1774822953462",
     "owner_username": "admin",
     "owner_display_name": "Administrator",
-    "count": 3,
+    "count": 1,
     "archetype": "calculator",
-    "market": "France",
+    "market": "Growth republish",
     "language": "fr",
     "country": "FR",
-    "brief": "Un outil interactif pour créer des itinéraires de voyage respectueux de l'environnement et de votre portefeui…",
-    "notes": "Planifiez vos voyages en France en minimisant l'empreinte carbone et le coût. Obtenez des suggestions d'hébergements, de transports et d'activités durables.\nAxé sur la durabilité et l'optimisation des coûts de voyage. Parfait pour les voyageurs conscients.",
-    "import_notes": "",
-    "growth_job_id": "",
-    "growth_slug": "",
-    "growth_kind": "",
+    "brief": "Planifiez vos voyages en France en minimisant l",
+    "notes": "Growth module republish of an updated local artifact.",
+    "import_notes": "Growth module republish of an updated local artifact.",
+    "growth_job_id": "growth-1779136481751",
+    "growth_slug": "optimiseur-de-budget-de-voyage-ecologique-1",
+    "growth_kind": "affiliate",
     "external_site_request_id": "",
     "external_client_ref": "",
     "external_source_label": "",
@@ -35,14 +35,14 @@
     "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
     "network_blueprint_id": "",
     "mode": "production",
-    "run_kind": "generated_batch",
+    "run_kind": "import_deploy",
     "publish_target": "render",
     "requested_publish_target": "render",
     "allow_url_fallback": false,
     "railway_project_id_override": "",
     "railway_environment_id_override": "",
-    "railway_service_id_override": "",
-    "railway_service_name_override": "",
+    "railway_service_id_override": "srv-d84eo237uimc739js290",
+    "railway_service_name_override": "optimiseur-de-budget-de-voyage-ecologique-1",
     "github_repo_private": true,
     "stage_models": {
       "ideation": "google/gemini-2.5-flash-lite:nitro",
@@ -51,254 +51,33 @@
       "qa": "anthropic/claude-haiku-4.5",
       "escalation": "anthropic/claude-sonnet-4.6"
     },
-    "archetype_display": "mixed batch",
+    "archetype_display": "file deploy",
     "archetype_mix": [
-      "calculator",
-      "tool",
-      "generator"
+      "imported"
     ],
-    "forced_design_theme": "mechanical-botanical",
-    "forced_structure_preset": "split-command",
+    "forced_slug": "optimiseur-de-budget-de-voyage-ecologique-1",
     "site_idea_title": "Optimiseur de Budget de Voyage Écologique",
-    "site_idea_summary": "Planifiez vos voyages en France en minimisant l'empreinte carbone et le coût. Obtenez des suggestions d'hébergements, de transports et d'activités durables."
+    "site_idea_summary": "Planifiez vos voyages en France en minimisant l",
+    "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779136481751/optimiseur-de-budget-de-voyage-ecologique-1",
+    "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779136481751/optimiseur-de-budget-de-voyage-ecologique-1",
+    "import_analysis_model": "preserved-analysis"
   },
-  "site_spec": {
-    "slug": "optimiseur-de-budget-de-voyage-ecologique-1",
-    "theme": {
-      "name": "Mechanical Botanical",
-      "slug": "mechanical-botanical",
-      "eyebrow": "Organic Systems",
-      "family": "mechanical-botanical",
-      "moods": [
-        "organic",
-        "futuristic",
-        "balanced",
-        "fresh"
-      ],
-      "archetypes": [
-        "tool",
-        "generator",
-        "calculator"
-      ],
-      "niches": [
-        "eco tools",
-        "wellness tools",
-        "sustainability",
-        "travel tools",
-        "consumer utility"
-      ],
-      "keywords": [
-        "organic",
-        "tech",
-        "botanical",
-        "iridescent",
-        "fresh"
-      ],
-      "token_index": [
-        "balanced",
-        "botanical",
-        "calculator",
-        "consumer",
-        "eco",
-        "fresh",
-        "futuristic",
-        "generator",
-        "iridescent",
-        "mechanical",
-        "organic",
-        "sustainability",
-        "systems",
-        "tech",
-        "tool",
-        "tools",
-        "travel",
-        "utility",
-        "wellness"
-      ],
-      "font_embed": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap",
-      "display_font": "\"Sora\", sans-serif",
-      "body_font": "\"Manrope\", sans-serif",
-      "layout": "split",
-      "card_style": "glass",
-      "button_style": "gradient",
-      "decor_style": "orbs",
-      "hero_template": "1.08fr 0.92fr",
-      "seo_template": "1.18fr 0.82fr",
-      "feature_columns": 3,
-      "faq_columns": 3,
-      "hero_min_height": "78vh",
-      "panel_radius": "28px",
-      "card_radius": "26px",
-      "chip_radius": "999px",
-      "button_radius": "18px",
-      "outline_width": "1px",
-      "backdrop_blur": "22px",
-      "palette": {
-        "bg": "linear-gradient(145deg, #081c15 0%, #1b4332 42%, #c7f9cc 100%)",
-        "surface": "rgba(8, 28, 21, 0.74)",
-        "surface_border": "rgba(128,237,153,0.18)",
-        "text": "#f1fff4",
-        "muted": "#b7e4c7",
-        "accent": "#80ed99",
-        "accent_alt": "#72ddf7",
-        "hero_glow": "rgba(128, 237, 153, 0.18)",
-        "button_text": "#062012",
-        "panel_alt": "rgba(255,255,255,0.04)",
-        "shadow": "0 30px 88px rgba(4, 12, 8, 0.34)",
-        "input_fill": "rgba(255,255,255,0.05)"
-      }
-    },
-    "structure": {
-      "name": "Split Command",
-      "slug": "split-command",
-      "hero_variant": "split",
-      "proof_variant": "metrics",
-      "section_order": [
-        "features",
-        "proof",
-        "faq",
-        "seo"
-      ],
-      "feature_columns": 3,
-      "faq_columns": 3,
-      "family": "hero-first",
-      "moods": [
-        "clean",
-        "balanced",
-        "conversion"
-      ],
-      "archetypes": [
-        "tool",
-        "calculator",
-        "generator"
-      ],
-      "niches": [
-        "general utility",
-        "comparison",
-        "services"
-      ],
-      "keywords": [
-        "hero",
-        "conversion",
-        "balanced",
-        "operator"
-      ],
-      "token_index": [
-        "balanced",
-        "calculator",
-        "clean",
-        "command",
-        "comparison",
-        "conversion",
-        "faq",
-        "features",
-        "first",
-        "general",
-        "generator",
-        "hero",
-        "metrics",
-        "operator",
-        "proof",
-        "seo",
-        "services",
-        "split",
-        "tool",
-        "utility"
-      ]
-    },
-    "render_direction": "signal-bento",
-    "render_direction_name": "Signal Bento",
-    "page_blueprint": "signal-matrix",
-    "page_blueprint_name": "Signal Matrix",
+  "import_analysis": {
     "title": "Optimiseur de Budget de Voyage Écologique",
-    "tagline": "Votre Itinéraire Idéal",
     "description": "Planifiez vos voyages en France en minimisant l",
-    "feature_prefix": "Bloc",
-    "action": "Utiliser l'outil",
-    "cta_primary": "Découvrir nos guides de voyage durable",
-    "cta_secondary": "Consulter la FAQ",
-    "inputs": [
-      {
-        "id": "amount",
-        "label": "Montant de base",
-        "type": "number",
-        "placeholder": "7500",
-        "weight": 1.0
-      },
-      {
-        "id": "duration",
-        "label": "Durée estimée",
-        "type": "number",
-        "placeholder": "12",
-        "weight": 0.42
-      },
-      {
-        "id": "plan",
-        "label": "Niveau de service",
-        "type": "select",
-        "options": [
-          {
-            "label": "Essentiel",
-            "value": 1.0
-          },
-          {
-            "label": "Performance",
-            "value": 1.18
-          },
-          {
-            "label": "Premium",
-            "value": 1.34
-          }
-        ],
-        "weight": 1.0
-      }
+    "summary": "Planifiez vos voyages en France en minimisant l",
+    "notes": "Growth module republish of an updated local artifact.",
+    "archetype": "calculator",
+    "language": "fr",
+    "country": "FR",
+    "market": "Growth republish",
+    "characteristics": [
+      "imported static site",
+      "ready file deploy",
+      "calculator"
     ],
-    "hero_metrics": [
-      {
-        "value": "Signal Bento",
-        "label": "Cadence"
-      },
-      {
-        "value": "3",
-        "label": "Entrées"
-      },
-      {
-        "value": "Résultat recommandé",
-        "label": "Sortie"
-      }
-    ],
-    "trust_labels": [
-      "Signal Bento",
-      "Découvrir nos guides de voyage durable",
-      "Résultat recommandé",
-      "Utilitaire immédiat",
-      "Structure SEO claire"
-    ],
-    "result_label": "Résultat recommandé",
-    "result_unit": "EUR",
-    "runtime_mode": "generic_calculator",
-    "page_variant": "console",
-    "faq_topic": "Optimiseur de Budget de Voyage Écologique",
-    "faq_entries": [
-      {
-        "question": "Pourquoi utiliser cet outil pour Optimiseur de Budget de Voyage Écologique ?",
-        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
-      },
-      {
-        "question": "Le résultat est-il immédiat ?",
-        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
-      },
-      {
-        "question": "Cette page est-elle adaptée au SEO ?",
-        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
-      }
-    ],
-    "seo_paragraphs": [
-      "Cette page capte une intention forte autour de Optimiseur de Budget de Voyage Écologique et la transforme en action utile pour un public situé sur France.",
-      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
-      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
-    ],
-    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Optimiseur de Budget de Voyage Écologique | Votre Itinéraire Idéal</title>\n    <meta name=\"description\" content=\"Planifiez vos voyages en France en minimisant l\">\n    <style>\n        :root {\n            --color-primary: #3d5a80;\n            --color-secondary: #98c1d9;\n            --color-accent: #ee6c4d;\n            --color-background: #e0f2f7;\n            --color-surface: rgba(255, 255, 255, 0.7);\n            --color-text: #293241;\n            --color-light-text: #5c677d;\n            --font-serif: 'Georgia', serif;\n            --font-sans: 'Helvetica Neue', sans-serif;\n            --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);\n            --shadow-glow: 0 0 15px rgba(152, 193, 217, 0.5);\n            --border-radius: 8px;\n        }\n\n        body {\n            font-family: var(--font-sans);\n            line-height: 1.6;\n            color: var(--color-text);\n            background-color: var(--color-background);\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n        }\n\n        h1, h2, h3 {\n            font-family: var(--font-serif);\n            color: var(--color-primary);\n            text-align: center;\n        }\n\n        h1 {\n            font-size: 3.5em;\n            margin-bottom: 0.5em;\n            letter-spacing: -1px;\n            color: var(--color-accent);\n            text-shadow: var(--shadow-light);\n        }\n\n        h2 {\n            font-size: 2.2em;\n            margin-top: 2em;\n            margin-bottom: 1em;\n            position: relative;\n            padding-bottom: 0.5em;\n        }\n\n        h2::after {\n            content: '';\n            position: absolute;\n            left: 50%;\n            bottom: 0;\n            transform: translateX(-50%);\n            width: 80px;\n            height: 3px;\n            background-color: var(--color-secondary);\n            border-radius: 2px;\n        }\n\n        .container {\n            width: 90%;\n            max-width: 1200px;\n            margin: 20px auto;\n            display: grid;\n            gap: 40px;\n            grid-template-columns: 1fr;\n        }\n\n        @media (min-width: 768px) {\n            .container {\n                grid-template-columns: 1fr 1fr;\n            }\n        }\n\n        header {\n            text-align: center;\n            padding: 60px 20px 40px;\n            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);\n            color: white;\n            box-shadow: var(--shadow-light);\n            width: 100%;\n        }\n\n        header p {\n            font-size: 1.3em;\n            max-width: 800px;\n            margin: 0 auto;\n            font-weight: 300;\n        }\n\n        section {\n            background-color: var(--color-surface);\n            padding: 30px;\n            border-radius: var(--border-radius);\n            box-shadow: var(--shadow-light), var(--shadow-glow);\n            backdrop-filter: blur(10px);\n            border: 1px solid rgba(255, 255, 255, 0.3);\n            display: flex;\n            flex-direction: column;\n            gap: 20px;\n        }\n\n        .cta-section {\n            text-align: center;\n            grid-column: 1 / -1;\n            background-color: var(--color-accent);\n            color: white;\n            padding: 40px;\n            border-radius: var(--border-radius);\n            box-shadow: var(--shadow-light);\n        }\n\n        .cta-section h2 {\n            color: white;\n            margin-top: 0;\n            margin-bottom: 0.5em;\n        }\n\n        .cta-section h2::after {\n            background-color: white;\n        }\n\n        .cta-section p {\n            font-size: 1.1em;\n            margin-bottom: 1.5em;\n        }\n\n        .button {\n            display: inline-block;\n            background-color: var(--color-primary);\n            color: white;\n            padding: 15px 30px;\n            border-radius: 50px;\n            text-decoration: none;\n            font-weight: bold;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            box-shadow: var(--shadow-light);\n            border: none;\n            cursor: pointer;\n            font-size: 1.1em;\n        }\n\n        .button:hover {\n            background-color: #2a3d53;\n            transform: translateY(-2px);\n        }\n\n        form label {\n            display: block;\n            margin-bottom: 8px;\n            font-weight: bold;\n            color: var(--color-light-text);\n        }\n\n        form input[type=\"number\"],\n        form input[type=\"text\"],\n        form select {\n            width: calc(100% - 20px);\n            padding: 12px;\n            margin-bottom: 15px;\n            border: 1px solid var(--color-secondary);\n            border-radius: var(--border-radius);\n            font-size: 1em;\n            background-color: rgba(255, 255, 255, 0.9);\n            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);\n        }\n\n        form input[type=\"submit\"] {\n            width: 100%;\n            padding: 15px;\n            background-color: var(--color-accent);\n            color: white;\n            border: none;\n            border-radius: var(--border-radius);\n            font-size: 1.2em;\n            font-weight: bold;\n            cursor: pointer;\n            transition: background-color 0.3s ease;\n            box-shadow: var(--shadow-light);\n        }\n\n        form input[type=\"submit\"]:hover {\n            background-color: #d15c40;\n        }\n\n        .result-card {\n            background-color: white;\n            border: 1px solid var(--color-secondary);\n            border-radius: var(--border-radius);\n            padding: 20px;\n            margin-bottom: 15px;\n            box-shadow: var(--shadow-light);\n            display: flex;\n            flex-direction: column;\n            gap: 10px;\n        }\n\n        .result-card h3 {\n            color: var(--color-primary);\n            margin-top: 0;\n            margin-bottom: 10px;\n            font-size: 1.4em;\n        }\n\n        .result-card p {\n            margin: 0;\n            color: var(--color-light-text);\n        }\n\n        .result-card .eco-score {\n            font-weight: bold;\n            color: var(--color-accent);\n        }\n\n        .result-card .cost-estimate {\n            font-weight: bold;\n            color: var(--color-primary);\n        }\n\n        .seo-section {\n            background-color: var(--color-primary);\n            color: white;\n            padding: 50px 20px;\n            text-align: center;\n            margin-top: 40px;\n            border-top: 5px solid var(--color-accent);\n            width: 100%;\n        }\n\n        .seo-section h2 {\n            color: white;\n            margin-bottom: 1em;\n        }\n\n        .seo-section h2::after {\n            background-color: white;\n        }\n\n        .seo-section p {\n            max-width: 800px;\n            margin: 0 auto 1em;\n            font-size: 1.1em;\n            line-height: 1.8;\n        }\n\n        .seo-section ul {\n            list-style: none;\n            padding: 0;\n            display: flex;\n            flex-wrap: wrap;\n            justify-content: center;\n            gap: 15px;\n            max-width: 900px;\n            margin: 2em auto 0;\n        }\n\n        .seo-section li {\n            background-color: rgba(255, 255, 255, 0.1);\n            padding: 10px 20px;\n            border-radius: 20px;\n            font-size: 0.9em;\n            border: 1px solid rgba(255, 255, 255, 0.2);\n        }\n\n        footer {\n            text-align: center;\n            padding: 30px;\n            margin-top: 40px;\n            color: var(--color-light-text);\n            font-size: 0.9em;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://optimiseur-de-budget-de-voyage-ecologique-1.onrender.com\">\n    <meta property=\"og:title\" content=\"Optimiseur de Budget de Voyage Écologique\">\n    <meta property=\"og:description\" content=\"Planifiez vos voyages en France en minimisant l\">\n    <meta property=\"og:url\" content=\"https://optimiseur-de-budget-de-voyage-ecologique-1.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Optimiseur de Budget de Voyage Écologique\", \"description\": \"Planifiez vos voyages en France en minimisant l\", \"url\": \"https://optimiseur-de-budget-de-voyage-ecologique-1.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"optimiseur-de-budget-de-voyage-ecologique-1\" data-runtime-mode=\"generic_calculator\">\n    <header>\n        <h1>Optimiseur de Budget de Voyage Écologique</h1>\n        <p>Planifiez vos escapades en France en minimisant l'empreinte carbone et le coût. Découvrez des hébergements, transports et activités qui respectent votre portefeuille et la planète.</p>\n    </header>\n\n    <div class=\"container\">\n        <section>\n            <h2>Votre Itinéraire Idéal</h2>\n            <p>Renseignez quelques détails pour obtenir des suggestions personnalisées et écologiquement responsables.</p>\n            <form id=\"tool-form\">\n                <label for=\"destination\">Destination (en France):</label>\n                <input type=\"text\" id=\"destination\" name=\"destination\" placeholder=\"Ex: Bordeaux, Nice, Alpes\" required>\n\n                <label for=\"duration\">Durée du séjour (jours):</label>\n                <input type=\"number\" id=\"duration\" name=\"duration\" min=\"1\" max=\"30\" value=\"7\" required>\n\n                <label for=\"budget\">Budget total (€):</label>\n                <input type=\"number\" id=\"budget\" name=\"budget\" min=\"100\" max=\"10000\" value=\"800\" required>\n\n                <label for=\"travelers\">Nombre de voyageurs:</label>\n                <input type=\"number\" id=\"travelers\" name=\"travelers\" min=\"1\" max=\"10\" value=\"2\" required>\n\n                <label for=\"transport\">Moyen de transport préféré:</label>\n                <select id=\"transport\" name=\"transport\">\n                    <option value=\"train\">Train</option>\n                    <option value=\"voiture\">Voiture (covoiturage/électrique)</option>\n                    <option value=\"bus\">Bus</option>\n                    <option value=\"velo\">Vélo / À pied</option>\n                </select>\n\n                <input type=\"submit\" id=\"tool-submit\" value=\"Optimiser mon voyage\">\n            </form>\n        </section>\n\n        <section id=\"tool-result\">\n            <h2 id=\"result-headline\">Nos Suggestions Optimisées</h2>\n            <p>Vos résultats apparaîtront ici. Nous calculons un score écologique et une estimation de coût pour chaque option.</p>\n            <!-- Results will be dynamically inserted here -->\n        </section>\n\n        <div class=\"cta-section\">\n            <h2>Prêt à Voyager Différemment ?</h2>\n            <p>Notre outil vous guide vers des expériences uniques, moins chères et plus respectueuses de l'environnement.</p>\n            <a href=\"#\" class=\"button\" data-affiliate-slot=\"discovery-guide\">Découvrir nos guides de voyage durable</a>\n        </div>\n    </div>\n\n    <section class=\"seo-section\">\n        <h2>Découvrez les Meilleurs Voyages Écologiques en France</h2>\n        <p>Vous recherchez des vacances en France qui riment avec respect de l'environnement et maîtrise de votre budget ? Notre plateforme vous aide à planifier des itinéraires durables et économiques. Que vous souhaitiez explorer la campagne française en train, découvrir des hébergements écologiques ou profiter d'activités à faible impact, nous avons les solutions pour vous.</p>\n        <p>Trouvez des idées pour vos week-ends verts, des séjours éco-responsables en famille ou des aventures solitaires à travers les régions françaises. Notre optimiseur intègre des données sur l'empreinte carbone des transports et des estimations de coûts pour vous offrir des options claires et comparables. Voyager mieux n'a jamais été aussi simple et abordable.</p>\n        <ul>\n            <li>Voyage écologique France</li>\n            <li>Vacances durables petit budget</li>\n            <li>Tourisme vert France</li>\n            <li>Calculateur empreinte carbone voyage</li>\n            <li>Hébergement éco-responsable France</li>\n            <li>Idées week-end vert France</li>\n            <li>Voyage en train économique</li>\n            <li>Activités zéro impact France</li>\n            <li>Optimiser budget vacances</li>\n            <li>Planifier voyage responsable</li>\n        </ul>\n    </section>\n\n    <footer>\n        <p>&copy; 2023 Optimiseur de Budget de Voyage Écologique. Tous droits réservés.</p>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const destination = document.getElementById('destination').value;\n            const duration = parseInt(document.getElementById('duration').value);\n            const budget = parseInt(document.getElementById('budget').value);\n            const travelers = parseInt(document.getElementById('travelers').value);\n            const transport = document.getElementById('transport').value;\n\n            const resultDiv = document.getElementById('tool-result');\n            resultDiv.innerHTML = '<h2>Nos Suggestions Optimisées</h2>';\n\n            // Simple heuristic-based recommendations\n            const suggestions = [];\n\n            // Base cost and eco-score (lower is better for eco-score)\n            let baseCostPerDay = 50; // per person\n            let baseEcoScorePerDay = 10;\n\n            // Adjust based on destination (simplification: assume all French destinations are similar for now)\n            // In a real app, this would use a lookup table or API for specific regions/cities\n\n            // Adjust based on transport\n            let transportCostModifier = 1;\n            let transportEcoModifier = 1;\n            let transportDescription = \"\";\n\n            switch (transport) {\n                case 'train':\n                    transportCostModifier = 0.8; // Generally cost-effective for short distances, can be expensive for last minute\n                    transportEcoModifier = 0.2; // Very low impact\n                    transportDescription = \"Voyage en train\";\n                    break;\n                case 'voiture':\n                    transportCostModifier = 1.2; // Fuel, tolls, wear\n                    transportEcoModifier = 0.7; // Moderate, depends on car type and co-sharing\n                    transportDescription = \"Voyage en voiture (covoiturage suggéré)\";\n                    break;\n                case 'bus':\n                    transportCostModifier = 0.7; // Often cheapest\n                    transportEcoModifier = 0.3; // Low impact\n                    transportDescription = \"Voyage en bus\";\n                    break;\n                case 'velo':\n                    transportCostModifier = 0.1; // Very low\n                    transportEcoModifier = 0.05; // Extremely low\n                    transportDescription = \"Voyage à vélo ou à pied\";\n                    break;\n            }\n\n            const estimatedTransportCost = (budget * 0.2) * transportCostModifier; // 20% of budget for transport initially\n            const estimatedAccommodationCost = (budget * 0.5) * travelers; // 50% of budget for accommodation\n            const estimatedActivityCost = (budget * 0.3) * travelers; // 30% of budget for activities\n\n            const totalEstimatedCost = estimatedTransportCost + estimatedAccommodationCost + estimatedActivityCost;\n\n            // Generate 3 \"ranked\" options\n            for (let i = 0; i < 3; i++) {\n                let currentCost = totalEstimatedCost;\n                let currentEcoScore = (baseEcoScorePerDay * duration * travelers * transportEcoModifier) + (Math.random() * 50); // Add randomness\n                let recommendationType = \"\";\n                let description = \"\";\n\n                if (i === 0) { // Most balanced/optimized\n                    recommendationType = \"Option Équilibrée (Recommandée)\";\n                    description = `Profitez d'un séjour alliant confort et durabilité. ${transportDescription} vers ${destination}. Hébergement chez l'habitant ou petit hôtel éco-labellisé. Activités : randonnées, visites de marchés locaux, dégustations de produits régionaux bio.`;\n                    currentCost *= (0.9 + Math.random() * 0.1); // Slight variation\n                    currentEcoScore *= (0.8 + Math.random() * 0.2);\n                } else if (i === 1) { // Budget-friendly\n                    recommendationType = \"Option Économique\";\n                    description = `Voyagez malin ! ${transportDescription} privilégié. Séjour en camping, auberge de jeunesse ou gîte rural. Activités gratuites ou à faible coût : pique-niques, exploration de la nature, musées gratuits.`;\n                    currentCost *= (0.7 + Math.random() * 0.1);\n                    currentEcoScore *= (0.7 + Math.random() * 0.2); // Usually cheaper options are also more eco-friendly\n                } else { // Eco-focused (might be slightly more expensive for certifications)\n                    recommendationType = \"Option Zéro Carbone\";\n                    description = `Un voyage pour les puristes. ${transportDescription} obligatoire. Hébergement en écogîte, ferme pédagogique ou hôtel certifié Green Globe. Activités : volontariat local, permaculture, ateliers d'artisanat durable.`;\n                    currentCost *= (1.0 + Math.random() * 0.15);\n                    currentEcoScore *= (0.5 + Math.random() * 0.1);\n                }\n                \n                // Ensure cost does not exceed budget too much for 'balanced' and 'eco' and is well within for 'budget'\n                if (currentCost > budget * 1.2 && i !== 1) currentCost = budget * (1 + Math.random() * 0.1);\n                if (currentCost > budget * 0.9 && i === 1) currentCost = budget * (0.8 + Math.random() * 0.1);\n\n\n                const resultCard = document.createElement('div');\n                resultCard.className = 'result-card';\n                resultCard.innerHTML = `\n                    <h3>${recommendationType}</h3>\n                    <p>${description}</p>\n                    <p><strong>Empreinte Écologique Estimée:</strong> <span class=\"eco-score\">${Math.round(currentEcoScore)} points</span> (plus bas, c'est mieux)</p>\n                    <p><strong>Coût Estimé:</strong> <span class=\"cost-estimate\">${Math.round(currentCost)} €</span> pour ${travelers} personne(s) pendant ${duration} jour(s)</p>\n                    <a href=\"#\" class=\"button\" style=\"background-color: var(--color-secondary); color: var(--color-primary);\" data-affiliate-slot=\"booking-option-${i}\">En savoir plus sur cette option</a>\n                `;\n                resultDiv.appendChild(resultCard);\n            }\n\n            resultDiv.scrollIntoView({ behavior: 'smooth' });\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
-    "generation_mode": "direct_html"
-  }
+    "suggested_slug": "optimiseur-de-budget-de-voyage-ecologique-1"
+  },
+  "source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779136481751/optimiseur-de-budget-de-voyage-ecologique-1",
+  "deploy_root": "/var/lib/utility-site-studio/data/growth-republish/growth-1779136481751/optimiseur-de-budget-de-voyage-ecologique-1"
 }
